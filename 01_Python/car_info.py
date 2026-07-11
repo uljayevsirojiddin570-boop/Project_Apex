@@ -1,0 +1,11 @@
+brand = input("car brand: ")
+model = input("car model: ")
+engine_power = int(input("engine power: "))
+top_speed = int(input("top speed: "))
+is_electric = input("is electric (Yes/No): ").lower() == "yes"
+print("================CAR INFORMATION=================")
+print("Car Brand:", brand)
+print("Car Model:", model)
+print("Engine Power:", engine_power, "HP")
+print("Top Speed:", top_speed)
+print("Is Electric:", is_electric)
