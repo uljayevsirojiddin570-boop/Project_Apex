@@ -15,7 +15,7 @@ print(dream_job)
 print(is_student)
 print("=================================")
 car_name = "BMW"
-car_model = "M3"
+car_model = "M5"
 engine_power = 635
 top_speed = 305
 is_electric = False

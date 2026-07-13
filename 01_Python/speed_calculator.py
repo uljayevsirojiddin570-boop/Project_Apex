@@ -5,6 +5,6 @@ speed = distance / time
 fuel_efficiency = distance / fuel
 fuel_consumed = fuel / distance * 100
 print("=================RESULT=================")
-print("Average Speed:", speed, "km/h")
-print("Fuel Efficiency:", fuel_efficiency, "km/L")
-print("Fuel Consumed:", fuel_consumed, "L/100km")
+print("Average Speed:.2f", speed, "km/h")
+print("Fuel Efficiency:.2f", fuel_efficiency, "km/L")
+print("Fuel Consumed:.2f", fuel_consumed, "L/100km")
